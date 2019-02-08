@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import ScrollReveal from 'scrollreveal';
 import { srConfig } from '../meta';
-import { IconGithub, IconExternal } from '../images/icons';
+import { IconGithub, IconExternal } from '../images';
 import styled from 'styled-components';
-import { Globals, Misc, Images, Section, Button } from '../styles';
+import { Globals, Misc, Images, Section } from '../styles';
 const { colors, fontSizes, fonts } = Globals;
 
 const ProjectsContainer = styled(Section)`

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { socialMedia } from '../meta';
-import { IconGithub, IconLinkedin } from '../images/icons';
+import { IconGithub, IconLinkedin } from '../images';
 import styled from 'styled-components';
 import { Globals, Images } from '../styles';
 const { colors } = Globals;

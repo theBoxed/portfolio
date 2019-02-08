@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { Globals, Images, Navigation} from '../styles';
-import { Logo } from '../images/icons';
+import { Logo } from '../images';
 const { colors, fontSizes, fonts } = Globals;
 
 const HeaderContainer = styled.header`

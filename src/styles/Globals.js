@@ -31,12 +31,6 @@ const Globals = {
   borderRadius: '4px',
   headerHeight: '100px',
   margin: '20px',
-
-
-  gradient: `linear-gradient(0.4turn, #64d6ff, #64ffda)`,
-
-  loaderDelay: `3`,
-
 };
 
 export default Globals;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ScrollReveal from 'scrollreveal';
 import { srConfig } from '../meta';
-import { IconGithub, IconExternal } from '../images/icons';
+import { IconGithub, IconExternal } from '../images';
 import styled from 'styled-components';
 import { Globals, Images, Section, Heading } from '../styles';
 const { colors, fontSizes, fonts } = Globals;
