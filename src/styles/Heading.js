@@ -9,7 +9,6 @@ const Heading = styled.h3`
   align-items: center;
   margin: 10px 0 60px;
   width: 100%;
-  white-space: nowrap;
   font-size: ${fontSizes.h3};
   ${Images.tablet`font-size: 50px;`};
 `;

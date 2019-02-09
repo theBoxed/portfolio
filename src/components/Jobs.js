@@ -38,7 +38,6 @@ const Tab = styled.button`
   transition: ${Globals.transition};
   border-left: 2px solid ${colors.white};
   text-align: left;
-  white-space: nowrap;
   font-family: ${fonts.Raleway};
   font-size: ${fontSizes.smallish};
   color: ${props => (props.isActive ? colors.blue : colors.dark)};
@@ -141,12 +140,9 @@ const JobDetails = styled.h5`
   font-family: ${fonts.Raleway};
   font-size: ${fontSizes.smallish};
   font-weight: normal;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   color: ${colors.dark};
   margin-bottom: 30px;
-  svg {
-    width: 15px;
-  }
 `;
 
 
@@ -160,8 +156,10 @@ const DutyList = styled.ul`
     color: ${colors.dark};
     margin-right: ${Globals.margin};
     ${Images.thone`
-      color: ${colors.white};
+      color: ${colors.dark};
       margin-right: 10px;
+      margin-top: 5px;
+      font-size: ${fontSizes.small}
     `};
   }
 `;

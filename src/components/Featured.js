@@ -11,7 +11,6 @@ const FeaturedContainer = styled(Section)`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  align-items: flex-start;
 `;
 const FeaturedGrid = styled.div`
   position: relative;
@@ -41,9 +40,6 @@ const ProjectName = styled.h5`
   margin: 0 0 20px;
   color: ${colors.blue};
   ${Images.tablet`font-size: 24px;`};
-  a {
-    ${Images.tablet`display: block;`};
-  }
 `;
 const ProjectDescription = styled.div`
   background-color: ${colors.blue};
@@ -52,10 +48,6 @@ const ProjectDescription = styled.div`
   border-radius: ${Globals.borderRadius};
   font-size: 17px;
   line-height: 1.3;
-  ${Images.thone`
-    background-color: transparent;
-    padding: 20px 0;
-  `};
   p {
     margin: 0;
   }
@@ -75,7 +67,7 @@ const TechList = styled.ul`
       margin-right: 0;
     }
     ${Images.thone`
-      color: ${colors.white};
+      color: ${colors.blue};
       margin-right: 10px;
     `};
   }
@@ -100,12 +92,15 @@ const FeaturedImg = styled.img`
   vertical-align: middle;
   border-radius: ${Globals.borderRadius};
   position: relative;
-  mix-blend-mode: multiply;;
+  mix-blend-mode: multiply;
   ${Images.tablet`
     object-fit: cover;
     width: auto;
-    height: 100%;
+    height: 300px;
   `};
+  ${Images.thone`
+    display: none;
+  `}
 `;
 const ImgContainer = styled.div`
   position: relative;
