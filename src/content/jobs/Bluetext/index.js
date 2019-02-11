@@ -7,7 +7,7 @@ const jobData = [
       range: 'January 2017 - Present',
       url: 'https://www.bluetext.com/',
       duties: [
-        'Developed the agency’s marketing programs from the ground up resulting in additional revenue streams accounting for over 35% of our total revenue. ',
+        'Worked closerly with team to grow the agency’s marketing programs from the ground up resulting in additional revenue streams.',
         'Responsible for the development and management of all client brand awareness & demand generation marketing programs, including strategic planning, KPI goals, budget management, execution and ROI tracking. ',
         'Manage a small team of on-site as well as off-site marketing professionals focused on executing campaigns including email, display advertising, paid social, partnership agreements, content marketing, and other various digital marketing channels.'
       ]
