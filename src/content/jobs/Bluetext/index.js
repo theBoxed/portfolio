@@ -1,30 +1,29 @@
 const jobData = [
+  {
+      company: 'Rehab.com',
+      date: '2019-4-16',
+      title: 'VP of Strategy & Operations',
+      location: 'Washington D.C.',
+      range: 'April 2019 - Present',
+      url: 'https://rehab.com/',
+      duties: [
+        'Help identify strategic needs, leading all aspects of planning with sound business recommendations, and generating alignment with key stakeholders.',
+        'Champion internal systems for higher productivity working.'
+      ]
+  },
 {
       company: 'Bluetext',
-      date: '2017-1-14',
+      date: '2015-3-16',
       title: 'Director of Marketing Programs',
       location: 'Washington D.C.',
-      range: 'January 2017 - Present',
+      range: 'March 2015 - May 2019',
       url: 'https://www.bluetext.com/',
       duties: [
         'Worked closerly with team to grow the agency’s marketing programs from the ground up resulting in additional revenue streams.',
         'Responsible for the development and management of all client brand awareness & demand generation marketing programs, including strategic planning, KPI goals, budget management, execution and ROI tracking. ',
         'Manage a small team of on-site as well as off-site marketing professionals focused on executing campaigns including email, display advertising, paid social, partnership agreements, content marketing, and other various digital marketing channels.'
       ]
-    },
-    {
-      company: 'Bluetext',
-      date: '2015-3-16',
-      title: 'Project Manager',
-      location: 'Washington D.C.',
-      range: 'March 2015 - December 2016',
-      url: 'https://www.bluetext.com/',
-      duties: [
-        'Developed into Bluetext\'s expert on developing, implementing and executing strategic marketing plans for all clients.',
-        'Obtained certifications in Hubspot, Google Analytics, and General Assembly Data Analysis to enhance Bluetext’s reporting efforts and provide clients with end-to-end marketing reporting. ',
-        'Lead the agency’s key accounts including projects with XO Communications, Microsoft, Hughes Communications, National Retail Federation, and more. '
-      ]
-    },
+  },
     {
       company: 'New North',
       date: '2014-7-14',
