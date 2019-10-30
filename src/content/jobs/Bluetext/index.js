@@ -37,7 +37,7 @@ const jobData = [
       ]
     },
     {
-      company: 'Better World Collective',
+      company: 'Better World',
       date: '2013-7-14',
       title: 'Co-Founder',
       location: 'NYC',
