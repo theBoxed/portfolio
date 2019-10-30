@@ -8,11 +8,12 @@ import { heroData } from './content/hero';
 import { jobData } from './content/jobs/Bluetext';
 import Jobs from './components/Jobs';
 import Featured from './components/Featured';
-import {featuredData} from './content/featured'
+import { featuredData } from './content/featured';
 import Projects from './components/Projects';
 import { projectsData } from './content/projects';
 import Contact from './components/Contact';
 import styled from 'styled-components';
+
 
 import { Images, Page } from './styles';
 
@@ -25,16 +26,16 @@ const MainContainer = styled(Page)`
 `;
 
 const App = () => (
-  <Layout>
-    <MainContainer id="content">
-      <Hero data={heroData} />
-      <About data={aboutData} />
-      <Jobs data={jobData} />
-      <Featured data={featuredData} />
-      <Projects data={projectsData} />
-      <Contact />
-    </MainContainer>
-  </Layout>
+    <Layout>
+      <MainContainer id="content">
+        <Hero data={heroData} />
+        <About data={aboutData} />
+        <Jobs data={jobData} />
+        <Featured data={featuredData} />
+        <Projects data={projectsData} />
+        <Contact />
+      </MainContainer>
+    </Layout>
 );
 
 export default App;
