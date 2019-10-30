@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { Globals, Images, Navigation} from '../styles';
+import { Globals, Images, Navigation } from '../styles';
 import { Logo } from '../images';
 const { colors, fontSizes, fonts } = Globals;
 
@@ -36,7 +36,6 @@ const Navbar = styled(Navigation)`
 const LogoContainer = styled.div`
   display: flex;
   justify-content: space-between;
-
 `;
 
 const LogoImg = styled.img`
@@ -75,29 +74,28 @@ class Header extends Component {
     return (
       <HeaderContainer>
         <Navbar>
-            <TransitionGroup>
-              {
-                <CSSTransition classNames="fade" timeout={3000}>
-                  <LogoContainer>
-                    <LogoImg src={Logo} alt="Brady Fox, Brady C Fox Logo" />
-                  </LogoContainer>
-                </CSSTransition>
-              }
-            </TransitionGroup>
-            <TransitionGroup>
-              {
-                <CSSTransition classNames="fadedown" timeout={3000}>
-                    <ResumeLink
-                      href='https://docs.google.com/document/d/1TwflEP5TNXQ1DLQMCA-b0wlXWPhGD2ukKAKxlvZ6hcc/edit?usp=sharing'
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      My Resume
-                    </ResumeLink>
-
-                </CSSTransition>
-              }
-            </TransitionGroup>
+          <TransitionGroup>
+            {
+              <CSSTransition classNames="fade" timeout={3000}>
+                <LogoContainer>
+                  <LogoImg src={Logo} alt="Brady Fox, Brady C Fox Logo" />
+                </LogoContainer>
+              </CSSTransition>
+            }
+          </TransitionGroup>
+          <TransitionGroup>
+            {
+              <CSSTransition classNames="fadedown" timeout={3000}>
+                <ResumeLink
+                  href="https://www.linkedin.com/in/bradycfox/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Let's Connect
+                </ResumeLink>
+              </CSSTransition>
+            }
+          </TransitionGroup>
         </Navbar>
       </HeaderContainer>
     );
