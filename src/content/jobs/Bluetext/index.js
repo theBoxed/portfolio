@@ -2,9 +2,9 @@ const jobData = [
   {
       company: 'Rehab.com',
       date: '2019-4-16',
-      title: 'VP of Strategy & Operations',
+      title: 'Strategy and Operations',
       location: 'Washington D.C.',
-      range: 'April 2019 - Present',
+      range: 'April 2019 - February 2020',
       url: 'https://rehab.com/',
       duties: [
         'Help identify strategic needs, leading all aspects of planning with sound business recommendations, and generating alignment with key stakeholders.',
