@@ -10,18 +10,18 @@ const jobData = [
       'High-level strategy and Natural born problem solvers, Say Hwdy is the digital agency that will help you create smart, results-driven experiences that engage people, transform brands, grow businesses, and drive stronger connections.'
     ]
   },
-  {
-    company: 'Rehab.com',
-    date: '2019-4-16',
-    title: 'Strategy and Operations',
-    location: 'Washington D.C.',
-    range: 'April 2019 - February 2020',
-    url: 'https://rehab.com/',
-    duties: [
-      'Help identify strategic needs, leading all aspects of planning with sound business recommendations, and generating alignment with key stakeholders.',
-      'Champion internal systems for higher productivity working.'
-    ]
-  },
+  // {
+  //   company: 'Rehab.com',
+  //   date: '2019-4-16',
+  //   title: 'Strategy and Operations',
+  //   location: 'Washington D.C.',
+  //   range: 'April 2019 - February 2020',
+  //   url: 'https://rehab.com/',
+  //   duties: [
+  //     'Help identify strategic needs, leading all aspects of planning with sound business recommendations, and generating alignment with key stakeholders.',
+  //     'Champion internal systems for higher productivity working.'
+  //   ]
+  // },
   {
     company: 'Bluetext',
     date: '2015-3-16',
