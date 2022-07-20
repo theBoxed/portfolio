@@ -21,7 +21,7 @@
     "redux-thunk": "^2.3.0",
     "scrollreveal": "^4.0.5",
     "styled-components": "^4.1.2",
-    "terser": "^3.14.1"
+    "terser": "^4.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
